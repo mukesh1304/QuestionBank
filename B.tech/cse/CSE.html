@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE Specialization - College PYQ</title>
+    <link rel="icon" href="../../images/favicon.ico" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-image: url('../../vecteezy_abstract-gradient-pastel-blue-and-purple-background-neon_8617161-1.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+    }
+        .glass-effect {
+            background: rgba(167, 211, 243, 0.8);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .branch-button {
+            transition: all 0.3s ease;
+        }
+        .branch-button:hover {
+            transform: translateY(-3px);
+            background-color: #3b82f6;
+            color: white;
+        }
+        .title-button {
+            background-color: #3b82f6;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            border-radius: 8px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .title-button:hover {
+            background-color: #2563eb;
+        }
+        /* Centering title */
+        .center-text {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        /* Centering Branch Selection Section */
+        .center-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+<!-- Navigation -->
+<nav class="glass-effect shadow-lg sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4">
+        <div class="flex justify-between h-16">
+            <div class="flex items-center">
+                <i class="bi bi-journal-text text-3xl text-blue-600 mr-2"></i>
+                <!-- Title Button -->
+                <a href="../../index.html" class="title-button">CSVTU QuestBank</a>
+
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="glass-effect py-25">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+        <h1 class="text-4xl md:text-6xl font-bold mb-6 text-blue-900">CSE Specialization Branches</h1>
+        <p class="text-xl mb-8 text-blue-800">Choose your specialization and access the question papers for your respective field.</p>
+    </div>
+</div>
+
+<!-- Branch Selection Section -->
+<div class="center-section">
+    <h2 class="center-text text-2xl font-bold mb-6 text-blue-900">Select a Branch Specialization</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 gap-6">
+        <a href="#cse-core" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">CSE (Core)</a>
+        <a href="#aiml" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">AIML</a>
+        <a href="#ai" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">AI</a>
+        <a href="#cybersecurity" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Cyber Security</a>
+        <a href="#datascience" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Data Science</a>
+    </div>
+</div>
+
+<!-- CSE Core Section -->
+<div id="cse-core" class="glass-effect py-8 mt-8">
+    <div class="max-w-7xl mx-auto px-4">
+        <h3 class="text-3xl font-bold text-center mb-6">CSE (Core) - Semesters 3 to 8</h3>
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-6">
+            <a href="cse-core/sem3/sem3.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 3</a>
+            <a href="cse-core/sem4/sem4.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 4</a>
+            <a href="cse-core/sem5/sem5.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 5</a>
+            <a href="cse-core/sem6/sem6.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 6</a>
+            <a href="cse-core/sem7/sem7.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 7</a>
+            <a href="cse-core/sem8/sem8.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 8</a>
+        </div>
+    </div>
+</div>
+
+<!-- AIML Section -->
+<div id="aiml" class="glass-effect py-8 mt-8">
+    <div class="max-w-7xl mx-auto px-4">
+        <h3 class="text-3xl font-bold text-center mb-6">AIML - Semesters 3 to 8</h3>
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-6">
+            <a href="aiml/sem3/sem3.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 3</a>
+            <a href="aiml/sem4/sem4.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 4</a>
+            <a href="aiml/sem5/sem5.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 5</a>
+            <a href="aiml/sem6/sem6.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 6</a>
+            <a href="aiml/sem7/sem7.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 7</a>
+            <a href="aiml/sem8/sem8.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 8</a>
+        </div>
+    </div>
+</div>
+
+<!-- AI Section -->
+<div id="ai" class="glass-effect py-8 mt-8">
+    <div class="max-w-7xl mx-auto px-4">
+        <h3 class="text-3xl font-bold text-center mb-6">AI - Semesters 3 to 8</h3>
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-6">
+            <a href="ai/sem3/sem3.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 3</a>
+            <a href="ai/sem4/sem4.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 4</a>
+            <a href="ai/sem5/sem5.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 5</a>
+            <a href="ai/sem6/sem6.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 6</a>
+            <a href="ai/sem7/sem7.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 7</a>
+            <a href="ai/sem8/sem8.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 8</a>
+        </div>
+    </div>
+</div>
+
+<!-- Cyber Security Section -->
+<div id="cybersecurity" class="glass-effect py-8 mt-8">
+    <div class="max-w-7xl mx-auto px-4">
+        <h3 class="text-3xl font-bold text-center mb-6">Cyber Security - Semesters 3 to 8</h3>
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-6">
+            <a href="Cyber Security/sem3/sem3.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 3</a>
+            <a href="Cyber Security/sem4/sem4.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 4</a>
+            <a href="Cyber Security/sem5/sem5.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 5</a>
+            <a href="Cyber Security/sem6/sem6.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 6</a>
+            <a href="Cyber Security/sem7/sem7.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 7</a>
+            <a href="Cyber Security/sem8/sem8.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 8</a>
+        </div>
+    </div>
+</div>
+
+<!-- Data Science Section -->
+<div id="datascience" class="glass-effect py-8 mt-8">
+    <div class="max-w-7xl mx-auto px-4">
+        <h3 class="text-3xl font-bold text-center mb-6">Data Science - Semesters 3 to 8</h3>
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-6">
+            <a href="../../Upadting.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 3</a>
+            <a href="../../Upadting.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 4</a>
+            <a href="../../Upadting.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 5</a>
+            <a href="../../Upadting.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 6</a>
+            <a href="../../Upadting.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 7</a>
+            <a href="../../Upadting.html" class="branch-button bg-gray-100 text-blue-900 py-3 px-6 rounded-lg shadow text-center">Semester 8</a>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Footer -->
+    <footer class="glass-effect py-8 mt-8">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center">
+                <p class="text-blue-900 font-medium">Created by Mukesh Kaushik</p>
+                <p class="text-blue-800 text-sm mt-2">© 2024 College PYQ. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
